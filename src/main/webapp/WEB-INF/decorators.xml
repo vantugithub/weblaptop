@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+    <decorator name="trang-chu" page="web.jsp">
+       <pattern>/trang-chu</pattern>
+    </decorator>
+    
+    <decorator name="profile" page="web.jsp">
+       <pattern>/profile</pattern>
+    </decorator>
+    
+    <decorator name="categories" page="categories.jsp">
+       <pattern>/categories**</pattern>
+    </decorator>
+    
+    <decorator name="cart" page="cart.jsp">
+       <pattern>/cart**</pattern>
+    </decorator>
+    
+    <decorator name="product" page="product.jsp">
+       <pattern>/product**</pattern>
+    </decorator>
+    
+    <decorator name="admin" page="admin.jsp">
+       <pattern>/admin**</pattern>
+    </decorator>
+	
+	<decorator name="dang-nhap" page="login.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+	
+	<decorator name="register" page="register.jsp">
+		<pattern>/register</pattern>
+	</decorator>
+	
+	<decorator name="orthers" page="orthers.jsp">
+		<pattern>/orthers**</pattern>
+	</decorator>
+	
+	<decorator name="comment" page="comment.jsp">
+		<pattern>/comment**</pattern>
+	</decorator>
+	    
+    <decorator name="listproduct" page="listproduct.jsp">
+       <pattern>/**</pattern>
+    </decorator>
+    
+    <decorator name="placeorder" page="placeorder.jsp">
+       <pattern>/checkout**</pattern>
+    </decorator>
+    
+    <decorator name="notice" page="notice.jsp">
+       <pattern>/cart/placeorder**</pattern>
+    </decorator>
+    
+<!--     <decorator name="search" page="search.jsp">
+       <pattern>/search/**</pattern>
+    </decorator> -->
+    
+</decorators>
